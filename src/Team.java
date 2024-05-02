@@ -48,6 +48,10 @@ public class Team {
         this.founder = founder;
     }
 
+    public boolean isWinner(){
+        return people > 5000;
+    }
+
 
 
 }

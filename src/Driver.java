@@ -4,6 +4,7 @@ public class Driver {
     private int height;
     private boolean champion;
     private Car car;
+    private String teamName;
 
 
     public Driver(int age, String name, int height, boolean champion) {
@@ -32,12 +33,6 @@ public class Driver {
         return height;
     }
 
-    public boolean isChampion() {
-        return champion;
-    }
-
-
-
     public void setAge(int age) {
         this.age = age;
     }
@@ -52,6 +47,20 @@ public class Driver {
 
     public void setChampion(boolean champion) {
         this.champion = champion;
+    }
+
+
+    public boolean isChampion() {
+        return champion;
+    }
+
+
+    public String getTeamName(){
+        return teamName;
+    }
+
+    public void setTeamName(String  teamName){
+        this.teamName = teamName;
     }
 
 

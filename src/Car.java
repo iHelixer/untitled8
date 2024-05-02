@@ -11,6 +11,12 @@ public class Car {
         this.engine = engine;
     }
 
+    public void start(){
+        System.out.println("The car is starting");
+    }
+
+
+
     public String getModel(){
         return model;
     }
@@ -37,5 +43,15 @@ public class Car {
         this.engine = engine;
     }
 
+    public void increaseWeight(double amount){
+        this.weight += amount;
+        if(this.weight > 160.5){
+            System.out.println("Болід заважкий");
+        }else {
+            System.out.println("Вага боліду припустима");
+        }
+    }
+
 
 }
+
