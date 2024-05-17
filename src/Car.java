@@ -1,4 +1,4 @@
-public class Car {
+public class Car implements Drivable {
     private String model;
     private double weight;
     private int wheels;
@@ -51,6 +51,18 @@ public class Car {
             System.out.println("Вага боліду припустима");
         }
     }
+
+
+    public Car(String model){
+        this.model=model;
+    }
+
+    @Override
+    public void drive(){
+        System.out.println("the car " + model + "is driving");
+    }
+
+
 
 
 }

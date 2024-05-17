@@ -30,6 +30,10 @@ public class Main {
         raceCar.useTurbo();
 
 
+        Car car1 = new Car("Aston Martin");
+        driver.drive(car1);
+
+
 
 
         System.out.println("Driver: " + driver.getName() + ", Age: " + driver.getAge() + ", Height: " + driver.getHeight() + " cm, Champion: " + driver.isChampion());

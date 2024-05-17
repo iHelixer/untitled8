@@ -63,5 +63,13 @@ public class Driver {
         this.teamName = teamName;
     }
 
+    public void Driver1(String name){
+        this.name=name;
+    }
+
+    public void drive(Drivable drivable){
+        drivable.drive();
+    }
+
 
 }
